@@ -361,6 +361,10 @@ input:focus-visible{
   }
 }
 
+.d-desktop{
+  display: none;
+}
+
 /* Responsive Design */
 @media (max-width: 991px) {
   .hero {
@@ -372,6 +376,9 @@ input:focus-visible{
   }
   .innerHero-Bottom{
     padding: 30px 0px;
+  }
+  .carImg img{
+    width: 100%;
   }
 }
 
@@ -489,6 +496,9 @@ input:focus-visible{
      .inpoutbox input{
       width: auto;
      }
+     .d-desktop{
+      display: none;
+     }
 }
 
 @media (max-width: 578px) {
@@ -517,7 +527,12 @@ input:focus-visible{
 }
 .innerHero-Bottom{
   padding: 0px 0px;
+  display: none;
+}
+.d-desktop{
   display: block;
+  text-align: center;
+  margin-top: 50px;
 }
 .innerHero-Bottom p{
   font-size: 14px;
@@ -643,4 +658,5 @@ input:focus-visible{
     padding-top: 40px;
   }
 }
+
 
