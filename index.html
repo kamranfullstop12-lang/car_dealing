@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dealership Intelligence</title>
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- aos animation lib css -->
+    <link href="https://unpkg.com/aos@2.3.0/dist/aos.css" rel="stylesheet" />
+    <!-- js script -->
+    <script src="./script.js"></script>
+    <!-- animation js -->
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero text-center text-lg-start px-4">
+      <div class="bigScreen">
+        <nav class="navbar pt-4">
+          <div class="container-fluid">
+            <div class="w-100 d-flex justify-content-between">
+              <a class="navbar-brand text-white" href="#">Logo here</a>
+              <div class="d-flex align-items-center d-mobile">
+                <button class="btn btn-black me-3">Get In Touch</button>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasNavbar"
+                  aria-controls="offcanvasNavbar"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  Offcanvas
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="container">
+          <div class="col-lg-12">
+            <div
+              class="innerHero-div"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <h1 class="hero-heading">
+                Audio-driven vehicle <br />
+                intelligence for dealerships
+              </h1>
+              <p class="mt-1">
+                Ready to unlock the true value of your <br />
+                trade-ins?
+              </p>
+            </div>
+            <div
+              class="innerHero-Bottom"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <div class="d-flex align-items-start">
+                <img src="./assets/images/playbtn.png" alt="" />
+                <p>
+                  Real-time engine & transmission assessment with sound + OBD
+                  data. Instant reports you can share directly with your service
+                  department. Smarter, faster, more accurate trade-in
+                  valuations.
+                </p>
+              </div>
+              <a href="#" class="btn btn-lg hero-btn mt-3"
+                >Explore Our Models</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Feature -->
+    <section class="py-5 Core-feature">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-12">
+            <p class="subtitle">
+              <span class="subtitle-number">(01)</span> core feature
+            </p>
+          </div>
+          <div class="col-lg-12">
+            <h1
+              class="coremain-text"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              Core Feature
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <div class="core-right" data-aos="fade-up" data-aos-duration="2000">
+              <img src="./assets//images/carImg.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6">
+            <div class="core-right" data-aos="fade-up" data-aos-duration="2000">
+              <h4>
+                Smarter Trade-In Valuations Powered by <br />
+                Sound Recognition + OBD Data
+              </h4>
+              <p>
+                Trade-In-Telligence™ uses advanced AI-driven audio diagnostics,
+                telemetry, visual analysis, and live OBD-II data to objectively
+                evaluate a vehicle’s drivetrain engine and transmission within
+                minutes.
+              </p>
+
+              <div class="core-ul">
+                <ul class="p-0">
+                  <li class="list-group-item">
+                    <span
+                      ><img
+                        src="./assets/images/checkCircle.png"
+                        alt="" /></span
+                    >Assess condition without moving the car, or confirm
+                    findings with a short test drive.
+                  </li>
+                  <li class="list-group-item">
+                    <span
+                      ><img
+                        src="./assets/images/checkCircle.png"
+                        alt="" /></span
+                    >Capture repeatable, unbiased data even by untrained staff.
+                  </li>
+                  <li class="list-group-item">
+                    <span
+                      ><img
+                        src="./assets/images/checkCircle.png"
+                        alt="" /></span
+                    >Deliver confidence in every valuation.
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-lg hero-btn mt-5"
+                >Explore Our Models</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why It Matters -->
+    <section class="why-section">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-12">
+            <p class="subtitle">
+              <span class="subtitle-number">(02)</span> Why it matters
+            </p>
+          </div>
+          <div class="col-lg-12">
+            <h1
+              class="coremain-text mb-5"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              Why It Matters for Dealerships
+            </h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <div data-aos="fade-up" data-aos-duration="2000">
+              <div class="grayBox">
+                <p>
+                  Turn Arbitrary <br />
+                  Guesswork Into Data-Backed Decisions
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6">
+            <div data-aos="fade-up" data-aos-duration="2000">
+              <div class="imgDiv">
+                <img
+                  width="100%"
+                  height="100%"
+                  src="./assets/images/salerperson.png"
+                  alt=""
+                />
+              </div>
+              <h4 class="mt-5" data-aos="fade-down" data-aos-duration="3000">
+                By integrating Trade-In-Telligence into your dealership
+                workflow, you can
+              </h4>
+
+              <div
+                class="core-ul-2 mt-5"
+                data-aos="fade-up"
+                data-aos-duration="4000"
+              >
+                <ul class="p-0">
+                  <li>
+                    Increase gross margins with smarter, data-backed trade-in
+                    offers.
+                  </li>
+                  <li>
+                    Save time by instantly sharing reports with your shop and
+                    mechanics.
+                  </li>
+                  <li>
+                    Prevent over-valuations on problem vehicles before they hit
+                    your lot.
+                  </li>
+                  <li>
+                    Enhance customer trust by showing objective diagnostics
+                    right at the point of trade.
+                  </li>
+                  <li>
+                    Get real-time part pricing and repair time estimates—built
+                    into your appraisal process.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seamless Section -->
+    <section class="Seamless-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="subtitle">
+              <span class="subtitle-number">(03)</span> Platform Capabilities
+            </p>
+          </div>
+          <div class="col-lg-12">
+            <h1
+              class="Seamless-text mb-5"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              Seamless. Scalable. Dealer-Friendly.
+            </h1>
+          </div>
+        </div>
+        <div
+          class="seamless-card-box"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="activebg card-body">
+                <h5 class="card-title">Data Collection</h5>
+                <p class="card-text">
+                  Use existing IOS/Android devices with the Listen Link Sensor
+                  for end-to-end trade-in evaluations. Simple enough for any
+                  staff member to operate.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">Auto AI</h5>
+                <p class="card-text">
+                  Proprietary AI analyzes drivetrain sounds, telemetry, images
+                  and OBD-II codes to generate a clear, objective condition
+                  report.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Shop <br />
+                  Integration
+                </h5>
+                <p class="card-text">
+                  Share results instantly with your service department or
+                  third-party mechanics.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">Repair Estimator</h5>
+                <p class="card-text mt-4">
+                  Get real-time pricing for parts and labor time, enabling
+                  accurate appraisals and reconditioning cost forecasts.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dealer Section -->
+
+    <section class="Dealer-scetion">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="subtitle">
+              <span class="subtitle-number">(04)</span> Dealer Benefits
+            </p>
+          </div>
+        </div>
+        <div class="family-Img">
+          <div class="row">
+            <div
+              class="col-lg-12"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <h4>Why Dealers Love Trade-In-Telligence</h4>
+              <button class="btn btn-more">more Detail</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div
+                class="orangeBox"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <ul>
+                  <li>Smarter, faster trade-in valuations</li>
+                  <li>Protect your margins with transparent data</li>
+                  <li>
+                    Simplify appraisal for sales staff with no technical
+                    background
+                  </li>
+                  <li>
+                    Share operational condition insights across teams and
+                    partners
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- texch section -->
+
+    <div class="tech-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="trade-box">
+              <p>The Tech</p>
+              <h1 data-aos="fade-down" data-aos-duration="1000">
+                Trade in tellegence powered by Autosonix goes far beyond
+                comparing noises to a database
+              </h1>
+              <div
+                class="trade-btn-box"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <button class="btn btn-lg hero-btn mt-3">Explore models</button>
+                <button class="btn btn-black mt-3">Book a Test Drive</button>
+              </div>
+              <p
+                class="mt-5 pt-5 tech-para"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
+                analyzing sound patterns in real time, it scales effortlessly
+                across any make, model, or even brand-new vehicles without
+                relying on pre-recorded libraries. This approach enables
+                intelligence that grows with every use—understanding not just
+                what a sound is, but what it means mechanically. The result is
+                true scalability and smarter diagnostics packed into a
+                Master-tech in a Microchip ™, giving anyone within the mobility
+                chain actionable insights instantly, anywhere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 col-md-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="footer-left text-left">
+              <p>stay <span class="orangetext">connected</span> with voltera</p>
+              <h6>want to maximize your trade-in profits?</h6>
+              <div class="inpoutbox">
+                <input type="text" placeholder="Your Email" />
+                <button class="btn btn-lg hero-btn">Subscribe</button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 col-md-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="footer-right d-flex justify-content-end">
+              <img
+                src="./assets/images/footer-img.png"
+                alt=""
+                sizes=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
