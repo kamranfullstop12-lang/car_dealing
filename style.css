@@ -592,6 +592,7 @@ input:focus-visible{
   }
   .family-Img{
     padding: 20px;
+    background-size: 175% 100%;
   }
   .family-Img h4 {
     font-size: 24px;
@@ -642,3 +643,4 @@ input:focus-visible{
     padding-top: 40px;
   }
 }
+
