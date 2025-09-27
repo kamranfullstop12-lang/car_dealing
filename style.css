@@ -127,7 +127,7 @@ button.navbar-toggler {
   margin-top: 40px;
 }
 .core-ul {
-  margin-top: 50px;
+  margin-top:20px;
 }
 .core-ul li {
   margin: 5px 0px;
@@ -459,11 +459,13 @@ img.heroDevice {
     /* color: #fff; */
 }
 img.mainLogo {
-    height: 70px !important;
+    height: 100px !important;
 }
 .aiLaptop{
-  margin-top: 180px;
-  margin-right: 20px;
+  /* margin-top: 180px;
+  margin-right: 20px; */
+  width: 100%;
+  max-width: 550px;
 }
 
 @media (min-width: 1920px) {
@@ -510,6 +512,10 @@ img.mainLogo {
   .orangeBox{
     margin-top: 50px;
   }
+  .aiLaptop{
+  width: 100%;
+  max-width: 350px;
+}
 }
 
 @media (max-width: 768px) {
